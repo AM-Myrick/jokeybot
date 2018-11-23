@@ -4,7 +4,7 @@ const jokeURL = "https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/rand
 const dadJokeURL = "https://icanhazdadjoke.com/"
 
 const bot = new SlackBot({
-    token: "xoxb-154966377728-487982966471-tJSiWtvlyHJjTqPC2WqBWlbT",
+    token: process.env.TOKEN,
     name: "jokeybot"
 })
 
